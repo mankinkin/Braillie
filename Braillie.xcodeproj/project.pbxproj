@@ -1,0 +1,502 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ED3C2FE129CB5F2F003544E6 /* BraillieApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3C2FE029CB5F2F003544E6 /* BraillieApp.swift */; };
+		ED3C2FE329CB5F2F003544E6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3C2FE229CB5F2F003544E6 /* ContentView.swift */; };
+		ED3C2FE529CB5F30003544E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED3C2FE429CB5F30003544E6 /* Assets.xcassets */; };
+		ED3C2FE829CB5F30003544E6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED3C2FE729CB5F30003544E6 /* Preview Assets.xcassets */; };
+		ED3C2FEF29CB73AA003544E6 /* BrailleUnit.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3C2FEE29CB73AA003544E6 /* BrailleUnit.swift */; };
+		ED3C2FF129CB75FD003544E6 /* BrailleCharView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3C2FF029CB75FD003544E6 /* BrailleCharView.swift */; };
+		EDC1860B29CD377D00844366 /* BrailleGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC1860A29CD377D00844366 /* BrailleGridView.swift */; };
+		EDC1860D29CD381F00844366 /* AudioManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC1860C29CD381F00844366 /* AudioManager.swift */; };
+		EDC1861329CD3AF800844366 /* String+BraillerArticle.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC1861229CD3AF800844366 /* String+BraillerArticle.swift */; };
+		EDC3B72A29CB7D61002380FF /* haptic.m4a in Resources */ = {isa = PBXBuildFile; fileRef = EDC3B72929CB7D61002380FF /* haptic.m4a */; };
+		EDC3B72C29CC0223002380FF /* BrailleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC3B72B29CC0223002380FF /* BrailleView.swift */; };
+		EDC3B73029CC6F82002380FF /* BrailleArticle.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC3B72F29CC6F82002380FF /* BrailleArticle.swift */; };
+		FD023D9629DB0A2600FA9B94 /* ColorHex.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD023D9529DB0A2600FA9B94 /* ColorHex.swift */; };
+		FD023D9829DB378800FA9B94 /* LetterGuessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD023D9729DB378800FA9B94 /* LetterGuessView.swift */; };
+		FD0872CF29D57E88005580DB /* HomeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD0872CE29D57E88005580DB /* HomeButton.swift */; };
+		FD1812F429D54F59006997DF /* Setting.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD1812F329D54F59006997DF /* Setting.swift */; };
+		FD1812F629D54FA8006997DF /* HomePageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD1812F529D54FA8006997DF /* HomePageView.swift */; };
+		FD322C0E29E2B817006E3005 /* FlashCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD322C0D29E2B817006E3005 /* FlashCard.swift */; };
+		FD322C1029E2E0A4006E3005 /* WordsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD322C0F29E2E0A4006E3005 /* WordsList.swift */; };
+		FD322C1229E2F8AE006E3005 /* EmitterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD322C1129E2F8AE006E3005 /* EmitterView.swift */; };
+		FD324B1029DDDD55003B837D /* CheckButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD324B0F29DDDD55003B837D /* CheckButton.swift */; };
+		FD324B1229DDE1B3003B837D /* CheckButton2.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD324B1129DDE1B3003B837D /* CheckButton2.swift */; };
+		FD732BC629DB3EC5008531F8 /* TypeToBrailleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD732BC529DB3EC5008531F8 /* TypeToBrailleView.swift */; };
+		FD732BC829DB3F1E008531F8 /* BraillePuzzleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD732BC729DB3F1E008531F8 /* BraillePuzzleView.swift */; };
+		FD732BCA29DB405C008531F8 /* FlashCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD732BC929DB405C008531F8 /* FlashCardView.swift */; };
+		FDA5954029E714E300A939E6 /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA5953F29E714E300A939E6 /* AboutView.swift */; };
+		FDA5954429E719F400A939E6 /* BrailleIntro.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA5954329E719F400A939E6 /* BrailleIntro.swift */; };
+		FDA5954629E71A0800A939E6 /* ExperienceIntro.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA5954529E71A0800A939E6 /* ExperienceIntro.swift */; };
+		FDDD238F29DB49F5001C2CFE /* ImageButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDDD238E29DB49F5001C2CFE /* ImageButton.swift */; };
+		FDDD239729DC5325001C2CFE /* Dot.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDDD239629DC5325001C2CFE /* Dot.swift */; };
+		FDE13A9029DC9750005A62D3 /* DIN_BlackAlternate_Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = FDE13A8F29DC974F005A62D3 /* DIN_BlackAlternate_Regular.otf */; };
+		FDE13A9229DC980E005A62D3 /* DIN_Alternate_Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = FDE13A9129DC980E005A62D3 /* DIN_Alternate_Regular.otf */; };
+		FDE13A9429DC99F4005A62D3 /* DIN_Alternate_Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = FDE13A9329DC99F4005A62D3 /* DIN_Alternate_Medium.otf */; };
+		FDE13A9629DCA157005A62D3 /* HintView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDE13A9529DCA157005A62D3 /* HintView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		ED3C2FDD29CB5F2F003544E6 /* Braillie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Braillie.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED3C2FE029CB5F2F003544E6 /* BraillieApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BraillieApp.swift; sourceTree = "<group>"; };
+		ED3C2FE229CB5F2F003544E6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		ED3C2FE429CB5F30003544E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ED3C2FE729CB5F30003544E6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		ED3C2FEE29CB73AA003544E6 /* BrailleUnit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrailleUnit.swift; sourceTree = "<group>"; };
+		ED3C2FF029CB75FD003544E6 /* BrailleCharView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrailleCharView.swift; sourceTree = "<group>"; };
+		EDC1860A29CD377D00844366 /* BrailleGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrailleGridView.swift; sourceTree = "<group>"; };
+		EDC1860C29CD381F00844366 /* AudioManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioManager.swift; sourceTree = "<group>"; };
+		EDC1861229CD3AF800844366 /* String+BraillerArticle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+BraillerArticle.swift"; sourceTree = "<group>"; };
+		EDC3B72929CB7D61002380FF /* haptic.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = haptic.m4a; sourceTree = "<group>"; };
+		EDC3B72B29CC0223002380FF /* BrailleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrailleView.swift; sourceTree = "<group>"; };
+		EDC3B72F29CC6F82002380FF /* BrailleArticle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrailleArticle.swift; sourceTree = "<group>"; };
+		FD023D9529DB0A2600FA9B94 /* ColorHex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorHex.swift; sourceTree = "<group>"; };
+		FD023D9729DB378800FA9B94 /* LetterGuessView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetterGuessView.swift; sourceTree = "<group>"; };
+		FD0872CE29D57E88005580DB /* HomeButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeButton.swift; sourceTree = "<group>"; };
+		FD1812F329D54F59006997DF /* Setting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Setting.swift; sourceTree = "<group>"; };
+		FD1812F529D54FA8006997DF /* HomePageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageView.swift; sourceTree = "<group>"; };
+		FD322C0D29E2B817006E3005 /* FlashCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashCard.swift; sourceTree = "<group>"; };
+		FD322C0F29E2E0A4006E3005 /* WordsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordsList.swift; sourceTree = "<group>"; };
+		FD322C1129E2F8AE006E3005 /* EmitterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmitterView.swift; sourceTree = "<group>"; };
+		FD324B0F29DDDD55003B837D /* CheckButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckButton.swift; sourceTree = "<group>"; };
+		FD324B1129DDE1B3003B837D /* CheckButton2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckButton2.swift; sourceTree = "<group>"; };
+		FD732BC529DB3EC5008531F8 /* TypeToBrailleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypeToBrailleView.swift; sourceTree = "<group>"; };
+		FD732BC729DB3F1E008531F8 /* BraillePuzzleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BraillePuzzleView.swift; sourceTree = "<group>"; };
+		FD732BC929DB405C008531F8 /* FlashCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashCardView.swift; sourceTree = "<group>"; };
+		FDA5953F29E714E300A939E6 /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
+		FDA5954329E719F400A939E6 /* BrailleIntro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrailleIntro.swift; sourceTree = "<group>"; };
+		FDA5954529E71A0800A939E6 /* ExperienceIntro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExperienceIntro.swift; sourceTree = "<group>"; };
+		FDDD238E29DB49F5001C2CFE /* ImageButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageButton.swift; sourceTree = "<group>"; };
+		FDDD239429DC433B001C2CFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		FDDD239629DC5325001C2CFE /* Dot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dot.swift; sourceTree = "<group>"; };
+		FDE13A8F29DC974F005A62D3 /* DIN_BlackAlternate_Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = DIN_BlackAlternate_Regular.otf; sourceTree = "<group>"; };
+		FDE13A9129DC980E005A62D3 /* DIN_Alternate_Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = DIN_Alternate_Regular.otf; sourceTree = "<group>"; };
+		FDE13A9329DC99F4005A62D3 /* DIN_Alternate_Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = DIN_Alternate_Medium.otf; sourceTree = "<group>"; };
+		FDE13A9529DCA157005A62D3 /* HintView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HintView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ED3C2FDA29CB5F2F003544E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ED3C2FD429CB5F2F003544E6 = {
+			isa = PBXGroup;
+			children = (
+				ED3C2FDF29CB5F2F003544E6 /* Braillie */,
+				ED3C2FDE29CB5F2F003544E6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ED3C2FDE29CB5F2F003544E6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ED3C2FDD29CB5F2F003544E6 /* Braillie.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ED3C2FDF29CB5F2F003544E6 /* Braillie */ = {
+			isa = PBXGroup;
+			children = (
+				FDDD239429DC433B001C2CFE /* Info.plist */,
+				FDDD239029DC4273001C2CFE /* Font */,
+				EDC3B72E29CC12E6002380FF /* Model */,
+				FD023D9429D6952F00FA9B94 /* View */,
+				EDC3B72D29CC12DE002380FF /* Helper */,
+				EDC3B72929CB7D61002380FF /* haptic.m4a */,
+				ED3C2FE229CB5F2F003544E6 /* ContentView.swift */,
+				FD1812F329D54F59006997DF /* Setting.swift */,
+				ED3C2FE029CB5F2F003544E6 /* BraillieApp.swift */,
+				ED3C2FE429CB5F30003544E6 /* Assets.xcassets */,
+				ED3C2FE629CB5F30003544E6 /* Preview Content */,
+			);
+			path = Braillie;
+			sourceTree = "<group>";
+		};
+		ED3C2FE629CB5F30003544E6 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				ED3C2FE729CB5F30003544E6 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EDC3B72D29CC12DE002380FF /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				FDA5953F29E714E300A939E6 /* AboutView.swift */,
+				EDC3B72B29CC0223002380FF /* BrailleView.swift */,
+				FDA5954329E719F400A939E6 /* BrailleIntro.swift */,
+				FDA5954529E71A0800A939E6 /* ExperienceIntro.swift */,
+				FD322C0D29E2B817006E3005 /* FlashCard.swift */,
+				FD324B0F29DDDD55003B837D /* CheckButton.swift */,
+				FD322C0F29E2E0A4006E3005 /* WordsList.swift */,
+				FD324B1129DDE1B3003B837D /* CheckButton2.swift */,
+				EDC1860A29CD377D00844366 /* BrailleGridView.swift */,
+				ED3C2FF029CB75FD003544E6 /* BrailleCharView.swift */,
+				FD322C1129E2F8AE006E3005 /* EmitterView.swift */,
+				FDDD239629DC5325001C2CFE /* Dot.swift */,
+				FD0872CE29D57E88005580DB /* HomeButton.swift */,
+				FDDD238E29DB49F5001C2CFE /* ImageButton.swift */,
+				FDE13A9529DCA157005A62D3 /* HintView.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		EDC3B72E29CC12E6002380FF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				ED3C2FEE29CB73AA003544E6 /* BrailleUnit.swift */,
+				EDC3B72F29CC6F82002380FF /* BrailleArticle.swift */,
+				EDC1860C29CD381F00844366 /* AudioManager.swift */,
+				EDC1861229CD3AF800844366 /* String+BraillerArticle.swift */,
+				FD023D9529DB0A2600FA9B94 /* ColorHex.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FD023D9429D6952F00FA9B94 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FD1812F529D54FA8006997DF /* HomePageView.swift */,
+				FD023D9729DB378800FA9B94 /* LetterGuessView.swift */,
+				FD732BC929DB405C008531F8 /* FlashCardView.swift */,
+				FD732BC729DB3F1E008531F8 /* BraillePuzzleView.swift */,
+				FD732BC529DB3EC5008531F8 /* TypeToBrailleView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FDDD239029DC4273001C2CFE /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				FDE13A9129DC980E005A62D3 /* DIN_Alternate_Regular.otf */,
+				FDE13A9329DC99F4005A62D3 /* DIN_Alternate_Medium.otf */,
+				FDE13A8F29DC974F005A62D3 /* DIN_BlackAlternate_Regular.otf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ED3C2FDC29CB5F2F003544E6 /* Braillie */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED3C2FEB29CB5F30003544E6 /* Build configuration list for PBXNativeTarget "Braillie" */;
+			buildPhases = (
+				ED3C2FD929CB5F2F003544E6 /* Sources */,
+				ED3C2FDA29CB5F2F003544E6 /* Frameworks */,
+				ED3C2FDB29CB5F2F003544E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Braillie;
+			productName = Braillie;
+			productReference = ED3C2FDD29CB5F2F003544E6 /* Braillie.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ED3C2FD529CB5F2F003544E6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					ED3C2FDC29CB5F2F003544E6 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = ED3C2FD829CB5F2F003544E6 /* Build configuration list for PBXProject "Braillie" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ED3C2FD429CB5F2F003544E6;
+			productRefGroup = ED3C2FDE29CB5F2F003544E6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ED3C2FDC29CB5F2F003544E6 /* Braillie */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ED3C2FDB29CB5F2F003544E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED3C2FE829CB5F30003544E6 /* Preview Assets.xcassets in Resources */,
+				FDE13A9429DC99F4005A62D3 /* DIN_Alternate_Medium.otf in Resources */,
+				FDE13A9029DC9750005A62D3 /* DIN_BlackAlternate_Regular.otf in Resources */,
+				ED3C2FE529CB5F30003544E6 /* Assets.xcassets in Resources */,
+				FDE13A9229DC980E005A62D3 /* DIN_Alternate_Regular.otf in Resources */,
+				EDC3B72A29CB7D61002380FF /* haptic.m4a in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ED3C2FD929CB5F2F003544E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDC3B72C29CC0223002380FF /* BrailleView.swift in Sources */,
+				FD732BC629DB3EC5008531F8 /* TypeToBrailleView.swift in Sources */,
+				FD324B1229DDE1B3003B837D /* CheckButton2.swift in Sources */,
+				FD023D9829DB378800FA9B94 /* LetterGuessView.swift in Sources */,
+				FDA5954029E714E300A939E6 /* AboutView.swift in Sources */,
+				FD732BC829DB3F1E008531F8 /* BraillePuzzleView.swift in Sources */,
+				FD324B1029DDDD55003B837D /* CheckButton.swift in Sources */,
+				ED3C2FF129CB75FD003544E6 /* BrailleCharView.swift in Sources */,
+				FDE13A9629DCA157005A62D3 /* HintView.swift in Sources */,
+				FD732BCA29DB405C008531F8 /* FlashCardView.swift in Sources */,
+				FD322C1029E2E0A4006E3005 /* WordsList.swift in Sources */,
+				EDC1860D29CD381F00844366 /* AudioManager.swift in Sources */,
+				FDA5954629E71A0800A939E6 /* ExperienceIntro.swift in Sources */,
+				FD322C1229E2F8AE006E3005 /* EmitterView.swift in Sources */,
+				FDDD239729DC5325001C2CFE /* Dot.swift in Sources */,
+				FD1812F429D54F59006997DF /* Setting.swift in Sources */,
+				EDC3B73029CC6F82002380FF /* BrailleArticle.swift in Sources */,
+				EDC1860B29CD377D00844366 /* BrailleGridView.swift in Sources */,
+				FD0872CF29D57E88005580DB /* HomeButton.swift in Sources */,
+				FD023D9629DB0A2600FA9B94 /* ColorHex.swift in Sources */,
+				ED3C2FE329CB5F2F003544E6 /* ContentView.swift in Sources */,
+				FD322C0E29E2B817006E3005 /* FlashCard.swift in Sources */,
+				ED3C2FE129CB5F2F003544E6 /* BraillieApp.swift in Sources */,
+				EDC1861329CD3AF800844366 /* String+BraillerArticle.swift in Sources */,
+				FDDD238F29DB49F5001C2CFE /* ImageButton.swift in Sources */,
+				FD1812F629D54FA8006997DF /* HomePageView.swift in Sources */,
+				ED3C2FEF29CB73AA003544E6 /* BrailleUnit.swift in Sources */,
+				FDA5954429E719F400A939E6 /* BrailleIntro.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		ED3C2FE929CB5F30003544E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ED3C2FEA29CB5F30003544E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ED3C2FEC29CB5F30003544E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Braillie/Preview Content\"";
+				DEVELOPMENT_TEAM = T8T5XG72S2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Braillie/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.self.myapp.Braillie;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ED3C2FED29CB5F30003544E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Braillie/Preview Content\"";
+				DEVELOPMENT_TEAM = T8T5XG72S2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Braillie/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.self.myapp.Braillie;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ED3C2FD829CB5F2F003544E6 /* Build configuration list for PBXProject "Braillie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED3C2FE929CB5F30003544E6 /* Debug */,
+				ED3C2FEA29CB5F30003544E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED3C2FEB29CB5F30003544E6 /* Build configuration list for PBXNativeTarget "Braillie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED3C2FEC29CB5F30003544E6 /* Debug */,
+				ED3C2FED29CB5F30003544E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ED3C2FD529CB5F2F003544E6 /* Project object */;
+}
