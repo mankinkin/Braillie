@@ -160,8 +160,10 @@ struct FlashCardView: View {
                 words.shuffle()
                 reload()
                 
-                
-                
+            } else {
+                words = ["Hello"]
+                words.shuffle()
+                reload()
             }
             
         }
